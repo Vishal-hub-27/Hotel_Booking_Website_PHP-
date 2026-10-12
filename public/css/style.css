@@ -1,0 +1,50 @@
+body{
+  font-family:"Plus Jakarta Sans", sans-serif !important;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+.container{ flex:1; }
+.navbar{ min-height:5rem; background-color:white; }
+.fa-location-arrow{ color:#fe424d; font-size:2rem; }
+.nav-link{ color:#222222 !important; }
+.logout-btn{ text-decoration:none; }
+
+/* search */
+.btn-search{ background-color:#fe424d; color:white; border-radius:25px; padding:0 1rem; }
+.btn-search:hover{ background-color:#fe424d; color:white; }
+.btn-search i{ display:inline; margin-right:.5rem; }
+.search-inp{ border-radius:25px; padding:.5rem 3rem; }
+
+/* footer */
+footer{
+  text-align:center;
+  background-color:#ebebeb;
+  padding:1.2rem 0;
+  margin-top:2rem;
+}
+.f-info > div{ margin:.25rem 0; }
+.f-info-socials i{ margin-right:1rem; font-size:1.2rem; }
+.f-info-links a{ text-decoration:none; color:#222222; margin:0 .5rem; }
+.f-info-links a:hover{ text-decoration:underline; }
+
+/* listings */
+#filters{ display:flex; flex-wrap:wrap; align-items:center; }
+.tax-info{ display:none; }
+.tag-toggle{
+  border:1px solid black;
+  border-radius:1rem;
+  height:3.2rem;
+  padding:1rem;
+  margin-top:1.5rem;
+  display:flex;
+  align-items:center;
+}
+.listing-card{ border:none !important; margin-bottom:2rem; }
+.card-img-top{ border-radius:1rem !important; width:100% !important; object-fit:cover !important; }
+.card-body{ padding:0 !important; }
+.listing-link{ text-decoration:none; color:inherit; }
+.card-img-overlay{ opacity:0; border-radius:1rem; }
+.card-img-overlay:hover{ opacity:.2; background-color:white; }
+.add-btn{ background-color:#fe424d !important; border:none !important; }
+.show-img{ height:40vh; }
